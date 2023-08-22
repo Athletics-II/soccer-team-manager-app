@@ -1,7 +1,18 @@
-package SoccerTeam;
+package soccerteam;
 
+/**.
+ * Driver class for the soccer team application.
+ */
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+  /**.
+   * Constructs a driver class for the soccer application.
+   * @param args main args
+   */
+  public static void main(String[] args) {
+    SoccerTeamModel teamModel = new SoccerTeamModelImpl();
+    SwingSoccerTeamView teamView = new SwingSoccerTeamView();
+    SwingSoccerTeamController teamController = new SwingSoccerTeamController(teamModel, teamView);
+    teamView.setController(teamController);
+  }
+
 }

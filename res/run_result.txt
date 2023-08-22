@@ -1,0 +1,19 @@
+Caboose, Michael 20
+Church, Leonard 6
+Donut, Franklin 7
+DuFresne, Frank 3
+Grif, Kaikaina 16
+Grif, Dexter 1
+Sgt, Sarge 9
+Simmons, Richard 10
+Tucker, Lavernius 19
+Washington, David 15
+
+
+Grif, Kaikaina 16 Goalie
+Sgt, Sarge 9 Defender
+Tucker, Lavernius 19 Defender
+Caboose, Michael 20 Midfielder
+Church, Leonard 6 Midfielder
+Donut, Franklin 7 Midfielder
+Washington, David 15 Forward
